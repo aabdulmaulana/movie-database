@@ -1,6 +1,5 @@
 function Hello(props) {
-  // Melakukan destructing props (object)
-  const { name } = props;
+    const { name } = props;
 
   return (
     <div className="hello">
